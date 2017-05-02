@@ -1,6 +1,6 @@
 # Tony Blog based on ProcessWire 3.x 
 
-# 1\ First tips about install pw to some cloud server with cpanel
+# 1\ First tips about install PW to some cloud server with cpanel
 
 500 Error: File is writeable by group
 
