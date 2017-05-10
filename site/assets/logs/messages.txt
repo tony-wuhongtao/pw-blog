@@ -1,0 +1,4 @@
+2017-05-05 13:18:27	tony	http://blog.tonywu.win/admin/setup/template/removeFields	Deleted field "body" data in 1 row(s) from 1 page(s). [page-by-page] (Fields)
+2017-05-05 13:18:27	tony	http://blog.tonywu.win/admin/setup/template/removeFields	Deleted field "content_core" data in 1 row(s) from 1 page(s). [page-by-page] (Fields)
+2017-05-05 13:18:27	tony	http://blog.tonywu.win/admin/setup/template/removeFields	Deleted field "sidebar" data in 1 row(s) from 1 page(s). [page-by-page] (Fields)
+2017-05-05 13:18:27	tony	http://blog.tonywu.win/admin/setup/template/removeFields	Deleted field "images" data in 2 row(s) from 1 page(s). [page-by-page] (Fields)

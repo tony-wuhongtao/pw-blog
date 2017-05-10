@@ -1,0 +1,2 @@
+2017-05-05 09:41:01	guest	http://blog.tonywu.win/	Error: 	Call to undefined function ProcessWire\region() (line 35 of /disk1/whm/blogtonywu/public_html/site/templates/_init.php)
+2017-05-05 09:49:03	guest	http://blog.tonywu.win/	Error: 	Call to undefined function ProcessWire\region() (line 35 of /disk1/whm/blogtonywu/public_html/site/templates/_init.php)
