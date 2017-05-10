@@ -223,10 +223,6 @@ $(document).ready(function(){
 							// CHECK FOR PAGINATION
 							
 							if( page <= totalPages){	
-								page = page + 1;
-								page_string = '/page' + page;
-								loadBtn.attr('href', page_string);
-								loadBtn.removeClass( 'm-loading' ).html( label );
 								var newPagination;
 								if ( loadingContainer.find( '.c-pagination .pagination-next' ).length > 0 ) {
 									newPagination = loadingContainer.find( '.c-pagination .pagination-next' );
@@ -237,6 +233,12 @@ $(document).ready(function(){
 								if ( newPagination.length > 0 ) {
 									loadBtn.attr( 'href', newPagination.find( 'a' ).first().attr( 'href' ) );
 								}
+								
+								page = page + 1;
+								page_string = '/page' + page;
+								loadBtn.attr('href', page_string);
+								loadBtn.removeClass( 'm-loading' ).html( label );
+								
 
 							}
 							else {
