@@ -195,7 +195,7 @@ function findBlogs($selector, $sort='name', $limit=10) {
 
 
 	// expand on the provided selector to limit it to 10 sorted blogs
-	$selector = "template=blog-single, limit=".$limit  . trim($selector, ", ");
+	$selector = "template=blog-single, limit=". $limit. "," . trim($selector, ", ");
 
 	// check if there are any keyword searches in the selector by looking for the presence of 
 	// ~= operator. if present, then omit the 'sort' param, since ProcessWire sorts by 
@@ -214,7 +214,7 @@ function findBlogsByCategory($category, $selector, $sort='name', $limit=10 ) {
 
 
 	// expand on the provided selector to limit it to 10 sorted blogs
-	$selector = "template=blog-single, limit=".$limit  . trim($selector, ", ");
+	$selector = "template=blog-single, limit=".$limit  ."," . trim($selector, ", ");
 
 	// check if there are any keyword searches in the selector by looking for the presence of 
 	// ~= operator. if present, then omit the 'sort' param, since ProcessWire sorts by 
@@ -245,7 +245,7 @@ function findBlogsByTag($blog_tag, $selector, $sort='name', $limit=10 ) {
 
 
 	// expand on the provided selector to limit it to 10 sorted blogs
-	$selector = "template=blog-single, limit=".$limit  . trim($selector, ", ");
+	$selector = "template=blog-single, limit=".$limit ."," . trim($selector, ", ");
 
 	// check if there are any keyword searches in the selector by looking for the presence of 
 	// ~= operator. if present, then omit the 'sort' param, since ProcessWire sorts by 

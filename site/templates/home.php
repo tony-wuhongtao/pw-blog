@@ -39,7 +39,7 @@ region('content', files()->render('./includes/home-content', array(
 	'limit' => $limit
 	)));
 
-$sliders = findBlogs("slider_enable=1");
+$sliders = findBlogs('slider_enable=1');
 region('slider', files()->render('./includes/slider', array(
 	'sliders' => $sliders
 	)));
