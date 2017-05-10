@@ -4,7 +4,7 @@
 <!-- HEADER BRANDING : begin -->
 <div class="header-branding">
 	<div class="header-branding-inner">
-		<a href="/"><img src="<?php echo $config->urls->templates?>images/logo-large.png" width="230" height="230" alt="Vibes"
+		<a href="/"><img src="<?php echo $config->urls->templates?>images/logo-large.png" width="230" height="230" alt="Tony"
 			data-hires="<?php echo $config->urls->templates?>images/logo-large.png" data-fixed="<?php echo $config->urls->templates?>images/logo.png" data-fixed-hires="<?php echo $config->urls->templates?>images/logo.png"
 			data-fixed-width="52" data-fixed-height="52"></a>
 	</div>

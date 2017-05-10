@@ -1,10 +1,11 @@
 <?php namespace ProcessWire; 
 	$homepage = pages('/');
 ?><!-- HEADER BRANDING : begin -->
+
 <div class="header-branding">
 	<div class="header-branding-inner">
-		<a href="/"><img src="<?php echo $config->urls->templates?>images/logo.png" width="100" height="100" alt="Vibes"
-			data-hires="<?php echo $config->urls->templates?>images/logo.png" data-fixed="<?php echo $config->urls->templates?>images/logo.png" data-fixed-hires="images/logo.png"
+		<a href="/"><img src="<?php echo $config->urls->templates?>images/logo.png" width="100" height="100" alt="Tony"
+			data-hires="<?php echo $config->urls->templates?>images/logo.png" data-fixed="<?php echo $config->urls->templates?>images/logo.png" data-fixed-hires="<?php echo $config->urls->templates?>images/logo.png"
 			data-fixed-width="52" data-fixed-height="52"></a>
 	</div>
 </div>
