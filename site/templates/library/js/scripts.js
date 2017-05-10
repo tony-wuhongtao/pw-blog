@@ -396,9 +396,10 @@ $(document).ready(function(){
 							// CHECK FOR PAGINATION
 							if ( loadingContainer.find( '.c-pagination.m-ajaxed' ).length > 0 || loadingContainer.find( '.c-pagination ul > li:last-child:not( .m-active )' ).length > 0 ) {
 
-								loadBtn.removeClass( 'm-loading' ).html( label );
+								
 								var nextLink = loadingContainer.find( '.c-pagination a' ).last().attr( 'href' );
 								loadBtn.attr( 'href', nextLink );
+								loadBtn.removeClass( 'm-loading' ).html( label );
 
 							}
 							else {
