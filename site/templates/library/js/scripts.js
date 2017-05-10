@@ -209,6 +209,9 @@ $(document).ready(function(){
 						noMoreLabel = loadBtn.data( 'no-more-label' ) ? loadBtn.data( 'no-more-label' ) : 'No more posts',
 					 	totalPages = loadBtn.data('total-pages');
 
+					loadBtn.addClass( 'm-loading' );
+					loadBtn.html( loadingLabel );
+
 
 					// LOAD
 					$( 'body' ).append( '<div class="c-loading-container" style="display: none;"></div>' );
@@ -233,7 +236,7 @@ $(document).ready(function(){
 								if ( newPagination.length > 0 ) {
 									loadBtn.attr( 'href', newPagination.find( 'a' ).first().attr( 'href' ) );
 								}
-								
+
 								page = page + 1;
 								page_string = '/page' + page;
 								loadBtn.attr('href', page_string);
