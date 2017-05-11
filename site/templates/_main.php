@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>library/css/skin/default.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>library/css/custom.css">
 	<!-- <link rel="stylesheet" type="text/css" href="<?php echo $config->urls->templates?>styles/main.css" /> -->
+
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
 	<link rel="stylesheet" href="<?php echo $config->urls->templates?>library/css/solarized-dark.css">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
