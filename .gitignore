@@ -17,7 +17,7 @@ site/assets/files
 site/assets/sessions
 site/assets/cache
 site/assets/installed.php
-site/assets/logs/
+site/assets/logs/*
 .htaccess
 tmp
 upgrade.php
