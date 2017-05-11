@@ -9,3 +9,7 @@
 2017-05-10 04:59:19	guest	http://pw.tony.com/	Maintenance/Copy new version of source file to target file: /site/templates/blog-tag.php => /site/assets/cache/FileCompiler/site/templates/blog-tag.php
 2017-05-10 04:59:19	guest	http://pw.tony.com/	Maintenance/Copy new version of source file to target file: /site/templates/search.php => /site/assets/cache/FileCompiler/site/templates/search.php
 2017-05-10 04:59:19	guest	http://pw.tony.com/	Maintenance/Copy new version of source file to target file: /site/templates/sitemap.php => /site/assets/cache/FileCompiler/site/templates/sitemap.php
+2017-05-10 05:55:34	tony	http://pw.tony.com/admin/module/download/	Compiled file: /site/modules/TextformatterHannaCode/TextformatterHannaCode.module
+2017-05-10 05:55:55	tony	http://pw.tony.com/admin/module/	Compiled file: /site/modules/TextformatterHannaCode/ProcessHannaCode.module
+2017-05-10 06:10:21	tony	http://pw.tony.com/admin/module/download/	Compiled file: /site/modules/HannaCodeDialog/HannaCodeDialog.module
+2017-05-10 11:11:49	tony	http://pw.tony.com/admin/page/edit/?id=1019&modal=1&tag=title	Compiled file: /site/modules/HannaCodeDialog/iframe_form.php

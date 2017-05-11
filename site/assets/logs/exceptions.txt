@@ -15,3 +15,4 @@
 2017-05-05 09:10:49	guest	http://pw.tony.com/blog-list/technology/blog-demo1/	Operator '!=' is not supported for path or url unless: 1) non-multi-language; 2) you install the PagePaths module. (in C:\xampp\htdocs\pw\wire\core\PageFinder.php line 1695)
 2017-05-08 07:50:48	tony	http://pw.tony.com/blog/tags/tutorial/	Unknown Selector operator: '' -- was your selector value properly escaped? field='tags', value='', selector: 'tags' (in C:\xampp\htdocs\pw\wire\core\Selectors.php line 396)
 2017-05-08 07:51:02	tony	http://pw.tony.com/blog/tags/tutorial/	Method Page::childen does not exist or is not callable in this context (in C:\xampp\htdocs\pw\wire\core\Wire.php line 519)
+2017-05-10 11:17:02	tony	http://pw.tony.com/admin/setup/hanna-code/import/	Unrecognized Hanna Code format (in C:\xampp\htdocs\pw\site\assets\cache\FileCompiler\site\modules\TextformatterHannaCode\ProcessHannaCode.module line 258)
